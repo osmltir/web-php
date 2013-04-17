@@ -1,0 +1,153 @@
+html 
+{
+	background:url(img/brillant.png) repeat center top;  
+}
+
+body
+{
+	width:745px;
+	height:400px;
+	margin: auto;
+	background:url(img/brillant.png) repeat center top; 
+}
+
+section
+{
+	width:404px;
+	height:400px;
+	background:white;
+	margin:auto;
+	margin-top:300px;
+	border-radius: 200px 200px;
+	background:url(img/logo1.png)center no-repeat;
+}
+
+header
+{ 	
+	width:745px;
+	height:22px;
+	margin-bottom: 15px;
+}
+
+.carre
+{
+	width:200px;
+	height:200px;
+	font-family:verdana, sans-serif;
+	text-align:center;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:90%;
+	color:black; 
+}
+
+
+#carre1
+{	
+	float:left;
+	border-left: 2px solid black;
+	border-top-left-radius: 200px 200px;
+}
+
+#carre1:hover
+{
+	background:#ADD8E6;
+	float:left;
+	border-left: 2px solid blue;
+	border-top-left-radius: 200px 200px;
+}
+
+#carre2
+{
+	float:right;
+	border-right: 2px solid black;
+	border-top-right-radius: 200px 200px;
+}
+
+#carre2:hover
+{
+	background: lightgreen;
+	float:right;
+	border-right: 2px solid green;
+	border-top-right-radius: 200px 200px;
+}
+
+#carre3
+{
+	float:left;
+	border-left: 2px solid black;
+	border-bottom-left-radius: 200px 200px;
+}
+
+#carre3:hover
+{
+	background:#FFB6C1;
+	float:left;
+	border-left: 2px solid 	#FF69B4;
+	border-bottom-left-radius: 200px 200px;
+}
+
+#carre4
+{
+	float:right;
+	border-right: 2px solid black;	
+	border-bottom-right-radius: 200px 200px;
+}
+
+#carre4:hover
+{
+	background:#FF7F50;
+	float:right;
+	border-right: 2px solid #FF4500;	
+	border-bottom-right-radius: 200px 200px;
+}
+
+a, a:hover 
+{
+  text-decoration: none;
+}
+
+/* Menubarre */
+
+#menubarre /* Liste */	
+{
+	padding : 0; /* pas de marge int�rieure */
+	margin-bottom:15px; /* marge inf�rieur */
+	list-style : none; /* on supprime le style par d�fault de la liste */
+	line-height : 21px; /* on d�fini une hauteur pour chaque �l�ment */
+	text-align : center; /* on centre le texte qui se trouve dans la liste */
+}
+
+#menubarre /* Ensemble du menu */
+{
+	font-weight : bold; /* on met le texte en gras */
+	font-family : Arial; /* on utilise Arial c'est plus beau ^^ */
+	font-size : 12px; /* hauteur du texte : 12 pixels */
+}
+
+#menubarre a /* Contenu des listes */
+{
+	display:block; /* on change le type d'élément, les liens deviennent des balises de type block */
+	padding:0; /* aucune marge intérieure */
+	background:yellow; /* couleur de fond */	
+	color :black; /* couleur du texte */
+	text-decoration : none; /* on supprime le style par défault des liens (la pluspart du temps = souligné) */
+	width : 148px; /* largeur */
+}
+
+#menubarre a:hover /* Contenu des listes */
+{
+	display:block; /* on change le type d'élément, les liens deviennent des balises de type block */
+	padding:0; /* aucune marge intérieure */
+	background:black; /* couleur de fond */	
+	color :yellow; /* couleur du texte */
+	text-decoration : none; /* on supprime le style par défault des liens (la pluspart du temps = souligné) */
+	width : 148px; /* largeur */
+}
+
+#menubarre li /* Elements des listes */	
+{ 
+	float : left; 
+	/* pour ie qui ne reconnait pas "transparent" */
+	border-right : 1px solid #fff; /* on met une bordure blanche à droite de chaque élément */
+}
